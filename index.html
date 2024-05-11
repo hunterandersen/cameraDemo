@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Camera Demo</h1>
+
+    <div class="camera-form">
+        <button>Start Video</button>
+        <button>Stop Video</button>
+        <button id="takePicBtn">Take Picture</button>
+    </div>
+
+    <div class="video-stream">
+        <video 
+            id="video" 
+            src="" 
+            controls 
+            controlslist="nodownload" 
+            disablepictureinpicture 
+            muted
+        >
+        </video>
+    </div>
+</body>
+</html>
